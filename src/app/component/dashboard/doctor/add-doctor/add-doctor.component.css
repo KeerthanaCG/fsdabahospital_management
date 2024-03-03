@@ -1,0 +1,98 @@
+/* .mat-dialog-content {
+    width: 600px;
+  }
+  
+  .mat-grid-list {
+    overflow: hidden;
+  }
+  
+  .mat-radio-button {
+    margin-right: 15px;
+  }
+  .custom-dialog-container .mat-dialog-container {
+    /* add your styles */
+    /* position: relative !important; */
+
+
+    .registration-form {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+    }
+    
+    .form-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    
+    .form-group {
+      flex-basis: calc(50% - 10px);
+      margin-bottom: 20px;
+    }
+    
+    label {
+      font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    .radio-group {
+      display: flex;
+      align-items: center;
+    }
+    
+    .radio-group input[type="radio"] {
+      margin-right: 5px;
+    }
+    
+    .error-message {
+      color: red;
+      margin-top: 5px;
+    }
+    
+    .form-actions {
+      margin-top: 20px;
+    }
+    
+    .form-actions button {
+      padding: 10px 20px;
+      margin-right: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .form-actions button:last-child {
+      margin-right: 0;
+    }
+    
+    .form-actions button[type="submit"] {
+      background-color: #007bff;
+      color: #fff;
+    }
+    
+    .form-actions button[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+    
+    .form-actions button[type="button"] {
+      background-color: #6c757d;
+      color: #fff;
+    }
+    
+    .form-actions button[type="button"]:hover {
+      background-color: #5a6268;
+    }
+    
+    
